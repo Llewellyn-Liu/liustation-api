@@ -1,0 +1,23 @@
+{
+	"info": {
+		"_postman_id": "2bfd41df-78ce-4770-bba6-c58fe1d32437",
+		"name": "Drive service api",
+		"description": "Drive service api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "25673024-2bfd41df-78ce-4770-bba6-c58fe1d32437"
+	},
+	"item": [
+		{
+			"name": "Test",
+			"id": "010be809-aa68-4951-88b5-b768a50db45d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
