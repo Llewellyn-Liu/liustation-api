@@ -17,7 +17,65 @@
 				"method": "GET",
 				"header": []
 			},
-			"response": []
+			"response": [
+				{
+					"id": "65b2856a-6e17-4265-bd3e-b16894558706",
+					"name": "Test",
+					"originalRequest": {
+						"method": "GET",
+						"header": []
+					},
+					"cookie": []
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"id": "1611fb2a-b32e-4a10-8f58-a4ae9dd95ea9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "8db84c30-bd68-45c6-9389-ff6e209b576d",
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"lrl\",\r\n    \"password\": \"123456\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user"
+							]
+						}
+					},
+					"cookie": []
+				}
+			]
 		}
 	]
 }
